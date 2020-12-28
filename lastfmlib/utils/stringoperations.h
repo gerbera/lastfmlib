@@ -53,14 +53,6 @@ namespace StringOperations
         ss << numeric;
         return ss.str();
     }
-
-    template<typename T>
-    inline std::string toWstring(T& numeric)
-    {
-        std::wstringstream ss;
-        ss << numeric;
-        return ss.str();
-    }
 }
 
 #endif
